@@ -6,4 +6,8 @@ class QuestionPaper
   def questions
     @questions
   end
+
+  def add question
+    @questions.push question
+  end
 end
